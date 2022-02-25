@@ -2,7 +2,7 @@
     --background: rgb(39, 39, 39);
     --side-div: rgb(173, 173, 173);
     --main-div: rgb(206, 206, 206);
-    --text: white;
+    --text: rgb(190, 190, 190);
     --text-dark: black;
 }
 
@@ -33,7 +33,7 @@ body {
     /* height: 100%; */
 }
 
-.div1 {
+.sidebar {
     padding: 2%;
     width: 20%;
     color: var(--text-dark);
@@ -41,7 +41,7 @@ body {
     border: 1px solid black;
 }
 
-.div2 {
+.main-info {
     padding: 2%;
     width: 80%;
     /* color: var(--text); */
@@ -49,7 +49,7 @@ body {
     border: 1px solid black;
 }
 
-.main .div1 img {
+.main .sidebar img {
     width: 200px;
     height: 200px;
     border: 1px solid black;
@@ -61,7 +61,7 @@ body {
     height: 100%;
 }
 
-.main .div2 .name h,
-.main .div2 .name p {
+.main .main-info .name h,
+.main .main-info .name p {
     display: block
 }
