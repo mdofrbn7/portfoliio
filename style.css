@@ -75,14 +75,44 @@ body {
     display: inline;
 }
 
-.main_body .main .sidebar .prof_skills ul li {
+.main_body .main .sidebar .skills ul li {
     display: inline;
     background-color: var(--background-lite);
     border-radius: 6%;
     padding: 5px;
 }
 
-.main_body .main .sidebar .prof_skills ul {
+.main_body .main .sidebar .skills ul {
     padding: 5px;
+    margin: 5px;
+}
+
+.skills {
+    /* background-color: antiquewhite; */
+}
+
+.skills-container {
+    display: block;
+    flex-direction: row;
+    /* background-color: blue; */
+}
+
+span {
+    display: inline-block;
+    /* float: left; */
+    padding: 10px;
+    margin: 2px;
+    background-color: var(--background-lite);
+    border: 1px solid var(--background-dark);
+    border-radius: 25px 25px;
+}
+
+hr {
+    border: 1px solid var(--background-lite);
+}
+
+a {
+    color: var(--text-dark);
+    padding: 10px;
     margin: 5px;
 }
