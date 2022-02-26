@@ -1,5 +1,6 @@
 :root {
-    --background: rgb(39, 39, 39);
+    --background-dark: rgb(39, 39, 39);
+    --background-lite: rgb(95, 95, 95);
     --side-div: rgb(173, 173, 173);
     --main-div: rgb(206, 206, 206);
     --text: rgb(190, 190, 190);
@@ -7,7 +8,7 @@
 }
 
 body {
-    background: var(--background);
+    background: var(--background-dark);
     /* background: black; */
     margin: 10px;
 }
@@ -64,4 +65,24 @@ body {
 .main .main-info .name h,
 .main .main-info .name p {
     display: block
+}
+
+.main_body .main-info .work_exp ul#horizontal-li {
+    list-style: none;
+}
+
+.main_body .main-info .work_exp ul#horizontal-li li {
+    display: inline;
+}
+
+.main_body .main .sidebar .prof_skills ul li {
+    display: inline;
+    background-color: var(--background-lite);
+    border-radius: 6%;
+    padding: 5px;
+}
+
+.main_body .main .sidebar .prof_skills ul {
+    padding: 5px;
+    margin: 5px;
 }
