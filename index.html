@@ -1,292 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-</head>
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-<body>
-    <div class="main_body">
-        <!-- <marquee behavior="scroll" direction="right">...This website is under development!...This website is under development!...This website is under development!...This website is under development!...This website is under development!...This website is under development!...This website is under
-            development!...This website is under development!...This website is under development!...This website is under development!...This website is under development!...This website is under development!...This website is under development!...This
-            website is under development!...</marquee> -->
-        <!-- <div class="header"></div> -->
-        <div class="main">
-            <div class="sidebar">
-                <div class="image-div">
-                    <img src="image_logo.jpg" alt="image" srcset="">
-                </div>
-                <!-- <hr> -->
-                <div class="skills-bar">
-                    <div class="education">
-
-                        <h2>EDUCATION</h2>
-
-
-                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aliquam voluptates natus laudantium cumque accusantium quaerat consectetur, mollitia similique, earum illum eum laborum eligendi modi?</p> -->
-                        <ul>
-                            <li>B.Sc in Engineering
-                                <ul>
-                                    <li>Computer Science and Engineering</li>
-                                </ul>
-                            </li>
-
-                        </ul>
-                    </div>
-                    <div class="professoinal skills">
-
-                        <h2>PROFESSIONAL SKILLS</h2>
-
-
-                        <!-- <hr> -->
-                        <div class="skills-container">
-                            <span>Security Expert     </span>
-                            <span>Security Anylist    </span>
-                            <span>Pentester           </span>
-                            <span>Gray Hat Hacker     </span>
-                            <span>Web Developer       </span>
-                            <span>Web Security Expert </span>
-                            <span>Android Developer   </span>
-                            <span>Desktop Application Developer</span>
-                            <span>Automate Script Writer</span>
-                        </div>
-
-                    </div>
-                    <div class="personal skills">
-
-                        <h2>PERSONAL SKILLS</h2>
-
-
-                        <!-- <hr> -->
-                        <div class="skills-container">
-                            <span>Online-Offline Tutor</span>
-                            <span>Critical thinking skills </span>
-                            <span>Curiosity</span>
-                            <span>Creativity</span>
-                            <span>Desire to learn        </span>
-                            <span>Flexibility            </span>
-                            <span>Close observation      </span>
-                            <span>Open-mindedness        </span>
-                            <span>Resourcefulness        </span>
-                            <span>Willingness to trial   </span>
-                            <span>Problem-solving skills </span>
-                            <span>Collaboration          </span>
-                            <span>Patience               </span>
-                            <span>Research               </span>
-                            <span>Attention to detail    </span>
-                            <span>Communication skills   </span>
-                            <span>Writing                </span>
-                            <span>Reading                </span>
-                            <span>Speaking               </span>
-                            <span>Listening              </span>
-                            <span>Leadership skills      </span>
-                            <span>Flexibility            </span>
-                            <span>Time management        </span>
-                            <span>Team building          </span>
-                            <span>Risk-taking            </span>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="contact">
-
-                    <h2>CONTACT</h2>
-
-
-                    <!-- <hr> -->
-                    EMAIL:&nbsp;
-                    <a href="mailto:mdofrbn.7@gmail.com?subject=subject&cc=mdofrbn.7@gmail.com">mdofrbn.7@gmail.com</a>
-
-                </div>
-                <div class="social">
-                    <!--   -->
-                    <h2>SOCIAL</h2>
-                    <!-- </div> -->
-
-                    <!-- <hr> -->
-                    <!-- Facebook -->
-                    <a target="_blank" href="https://www.facebook.com/mdurfq12" role="button"><i class="fab fa-facebook-f fa-lg"></i
-    ></a>
-
-                    <!-- Google -->
-                    <a target="_blank" href="mailto:mdofrbn.7@gmail.com?subject=subject&cc=mdofrbn.7@gmail.com" role="button"><i class="fab fa-google fa-lg"></i
-    ></a>
-                    <!-- Github -->
-                    <a target="_blank" href="https://github.com/mdofrbn7" role="button"><i class="fab fa-github fa-lg"></i
-        ></a>
-                </div>
-
-
-            </div>
-            <div class="main-info">
-                <div class="name">
-                    <!--   -->
-                    <h1>MUHAMMAD UMAR FAROOQ</h1>
-                    <!-- </div> -->
-
-                    <p>WEB, SOFTWARE, AND APP DEVELOPER, PENTESTER, SECURITY ANYLIST</p>
-                </div>
-                <div class="about">
-
-                    <h2>ABOUT</h2>
-
-
-                    <p>I am Muhammad Umar Farooq. Welcome to my portfolio. I have been working on Java, Python, C, HTML, CSS, JavaScript, React JS, Cyber security, and Shell Scripting for the past 4 years, I have been developing many Desktop and Android
-                        apps and I have plenty of experience and a great eye for software development. As an experienced developer, I am pleased to be able to offer high-quality, clear, and concise software on a wide range of different topics. I credit
-                        my value and guarantee my product quality. I can offer competitive prices and deliver great work. Full-time Communication and Working :)</p>
-                </div>
-                <!-- /................................................ -->
-
-                <div class="work_exp">
-
-                    <h2>PROJECTS LIST</h2>
-
-
-                    <p>Here are some demo's of my work:</p>
-
-                    <div class="projects-list-main">
-                        <div class="project">
-                            <a href="#"><img src="https://picsum.photos/260" alt="Image Template"></a>
-                            <div class="box_title">
-                                <h2><a href="#">Java OOP Software</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem, similique dolorem eum illo fugiat?</p>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <a href="#"><img src="https://picsum.photos/260" alt="Image Template"></a>
-                            <div class="box_title">
-                                <h2><a href="#">Java OOP Software</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem, similique dolorem eum illo fugiat?</p>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <a href="#"><img src="https://picsum.photos/260" alt="Image Template"></a>
-                            <div class="box_title">
-                                <h2><a href="#">Java OOP Software</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem, similique dolorem eum illo fugiat?</p>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <a href="#"><img src="https://picsum.photos/260" alt="Image Template"></a>
-                            <div class="box_title">
-                                <h2><a href="#">Java OOP Software</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem, similique dolorem eum illo fugiat?</p>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <a href="#"><img src="https://picsum.photos/260" alt="Image Template"></a>
-                            <div class="box_title">
-                                <h2><a href="#">Java OOP Software</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem, similique dolorem eum illo fugiat?</p>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <a href="#"><img src="https://picsum.photos/260" alt="Image Template"></a>
-                            <div class="box_title">
-                                <h2><a href="#">Java OOP Software</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem, similique dolorem eum illo fugiat?</p>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <a href="#"><img src="https://picsum.photos/260" alt="Image Template"></a>
-                            <div class="box_title">
-                                <h2><a href="#">Java OOP Software</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem, similique dolorem eum illo fugiat?</p>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <a href="#"><img src="https://picsum.photos/260" alt="Image Template"></a>
-                            <div class="box_title">
-                                <h2><a href="#">Java OOP Software</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem, similique dolorem eum illo fugiat?</p>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <a href="#"><img src="https://picsum.photos/260" alt="Image Template"></a>
-                            <div class="box_title">
-                                <h2><a href="#">Java OOP Software</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem, similique dolorem eum illo fugiat?</p>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <a href="#"><img src="https://picsum.photos/260" alt="Image Template"></a>
-                            <div class="box_title">
-                                <h2><a href="#">Java OOP Software</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem, similique dolorem eum illo fugiat?</p>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <a href="#"><img src="https://picsum.photos/260" alt="Image Template"></a>
-                            <div class="box_title">
-                                <h2><a href="#">Java OOP Software</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem, similique dolorem eum illo fugiat?</p>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <a href="#"><img src="https://picsum.photos/260" alt="Image Template"></a>
-                            <div class="box_title">
-                                <h2><a href="#">Java OOP Software</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem, similique dolorem eum illo fugiat?</p>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <a href="#"><img src="https://picsum.photos/260" alt="Image Template"></a>
-                            <div class="box_title">
-                                <h2><a href="#">Java OOP Software</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem, similique dolorem eum illo fugiat?</p>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <a href="#"><img src="https://picsum.photos/260" alt="Image Template"></a>
-                            <div class="box_title">
-                                <h2><a href="#">Java OOP Software</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem, similique dolorem eum illo fugiat?</p>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <a href="#"><img src="https://picsum.photos/260" alt="Image Template"></a>
-                            <div class="box_title">
-                                <h2><a href="#">Java OOP Software</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem, similique dolorem eum illo fugiat?</p>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <a href="#"><img src="https://picsum.photos/260" alt="Image Template"></a>
-                            <div class="box_title">
-                                <h2><a href="#">Java OOP Software</a></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem, similique dolorem eum illo fugiat?</p>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                    <div class="footer">
-                        <a target="_blank" href="#">MUHAMMAD UMAR FAROOQ</a> © 2022 &nbsp;&nbsp;
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-
-
-
-    </div>
-
-    <script src="main.js"></script>
-</body>
-
-
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
 </html>
